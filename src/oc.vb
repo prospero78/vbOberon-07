@@ -4,8 +4,9 @@
 '
 Module main
 
-Sub Main
-	Console.ForegroundColor = Color.Red
+Sub Main()
+	Console.Clear()
+	Console.Title = "Oberon-07 Compiler"
 	Console.WriteLine("Привет, мир!")
 End Sub
 
