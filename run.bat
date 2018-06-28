@@ -1,2 +1,2 @@
 echo off
-bin\oc.exe
+bin\oc.exe /m:модТест.o7
