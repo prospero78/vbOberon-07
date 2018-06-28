@@ -1,0 +1,2 @@
+echo === Компиляция модПомощь.dll ===
+c:\Windows\Microsoft.NET\Framework64\v4.0.30319\vbc.exe .\src\модПомощь.vb /nologo /debug+ /optionexplicit+ /optioninfer+ /optionstrict+ /rootnamespace:oc  /platform:x64 /utf8output+ /r:".\bin\модКонсоль.dll" /t:library /out:".\bin\модПомощь.dll" /optimize+
