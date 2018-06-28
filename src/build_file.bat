@@ -1,0 +1,2 @@
+echo ===  Компиляция модФайл.dll ===
+vbc .\src\модФайл.vb /nologo /debug+ /optionexplicit+ /optioninfer+ /optionstrict+ /rootnamespace:oc /platform:x64 /utf8output+ /r:".\bin\модАргументы.dll" /r:".\bin\модКонсоль.dll" /t:library /out:".\bin\модФайл.dll" /optimize+
