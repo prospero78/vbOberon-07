@@ -6,8 +6,9 @@ Module main
 
 Sub Main()
 	Console.Clear()
-	Console.Title = "Oberon-07 Compiler"
-	Console.WriteLine("Привет, мир!")
+	Console.Title = "Компилятор Oberon-07"
+   модКонсоль.Сплэш_Печать()
+   модАргументы.Парам_Получ()
 End Sub
 
 End Module
