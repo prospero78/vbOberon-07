@@ -1,0 +1,2 @@
+echo === Компиляция модРазметка.dll ===
+c:\Windows\Microsoft.NET\Framework64\v4.0.30319\vbc.exe .\src\модРазметка.vb /nologo /debug+ /optionexplicit+ /optioninfer+ /optionstrict+ /rootnamespace:oc  /platform:x64 /utf8output+ /t:library /out:".\bin\модРазметка.dll" /optimize+
